@@ -1,0 +1,16 @@
+{
+    "data_path": "../03_Faster_RCNN/data/coco2017/",
+    "num_workers": 0,
+    "batch_size": 4,
+    "backbone": "resnet50fpn",
+    "hidden_layer": 256,
+    "epochs": 11,
+    "model_save_path": "./model_result/02_ResNet50FPN_Backbone_Continue/ResNet50FPN_model_continue.pth",
+    "save_per_epochs": null,
+    "monitor": "loss",
+    "multi_gpu_flag": false,
+    "port_num": 14000,
+    "lr": 0.0002966316784621,
+    "weight_decay": 0.0001,
+    "momentum": 0.9
+}
